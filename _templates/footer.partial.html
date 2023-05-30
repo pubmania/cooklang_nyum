@@ -2,10 +2,10 @@
     <p>$strings.footer_text$</p>
     <p class="updatededit">
         $strings.updated_on$ $updatedtime$
-        $if(basename)$
+        $if(title)$
             $if(github_url)$
                 ·
-                <a href="$github_url$/edit/main/cooklang_recipes/$basename$.cook">$strings.edit$</a>
+                <a href="$github_url$/edit/main/cooklang_recipes/$title$.cook">$strings.edit$</a>
             $endif$
         $endif$
     </p>
